@@ -1,0 +1,208 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+header {
+    background-color: #131c46; /* Color oscuro de la paleta */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+/*Fondo de lapagina*/
+
+main section {
+    border: 1px solid #3c4c8f; /* Borde de un tono intermedio */
+    padding: 20px;
+    background-color: #80c4f9;  /* Fondo de un tono más claro */
+    border-radius: 8px;
+}
+
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #131c46; /* Color azul brillante para el footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form label, form input, form button {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Opcional: Colores para los botones o formularios */
+form button {
+    background-color:#131c46; /* Color para botones */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los formularios */
+}
+
+.form-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* para poner mruv en linea*/
+
+#seccion-mruv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 20px; /* Espacio entre los formularios */
+    margin-bottom: 20px;
+}
+
+#seccion-mruv form {
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion-mruv h3 {
+    text-align: center;
+}
+
+main {
+    background-color: #131c46;   /* Color oscuro de la paleta */
+    color: #3c4c8f;
+    text-align: center;
+    padding: 20px;
+}
+
+/*INDEX MENÚ */
+/* Resetear algunos estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+/* Estilo del menú de navegación */
+header {
+    background-color: #131c46;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #131c46;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #3c4c8f;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #80c4f9;
+}
+
+#mru {
+    background-color: #80c4f9;
+}
+
+#mruv {
+    background-color: #80c4f9;
+}
+
+#formulas {
+    background-color: #80c4f9;
+}
+
+#articulos {
+    background-color: #80c4f9;
+}
+
+/* Estilo del Footer */
+footer {
+    background-color: #131c46;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Asegura que el logo esté a la izquierda y los enlaces a la derecha */
+    align-items: center; /* Centra verticalmente el logo y los enlaces */
+    padding: 0 20px;
+}
+
+nav .logo {
+    border-radius: 50px;
+    width: 100px; /* Ajusta el tamaño del logo */
+}
+
+
+/* Estilo del botón de regreso */
+.boton-regresar {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: white;
+    background-color:#131c46;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.boton-regresar:hover {
+    background-color: #131c46; /* Cambia el color cuando pasas el mouse por encima */
+    border: 1px solid #131c46;
+}
+
+
